@@ -1,0 +1,269 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-24T03:52:55.777Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1996600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.aiite.pageexecution.Hooks.beforeHook()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "This scenario is to test login with valid credential",
+        "description": "",
+        "id": "this-feature-is-to-test-login-page-scenarios;this-scenario-is-to-test-login-with-valid-credential;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.aiite.pageexecution.Hooks.afterHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2958210600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser and load the Url.",
+            "match": {
+              "location": "com.aiite.pageexecution.LoginPageStepDef.launch_the_browser_and_load_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208195100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Provide valid \"azharudeen@gmail.com\" and \"Abc@123\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"azharudeen@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Abc@123\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.aiite.pageexecution.LoginPageStepDef.provide_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3109351100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the user is logged in.",
+            "match": {
+              "location": "com.aiite.pageexecution.LoginPageStepDef.validate_the_user_is_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-24T03:53:02.127Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.aiite.pageexecution.Hooks.beforeHook()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "This scenario is to test login with valid credential",
+        "description": "",
+        "id": "this-feature-is-to-test-login-page-scenarios;this-scenario-is-to-test-login-with-valid-credential;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.aiite.pageexecution.Hooks.afterHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1959990300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser and load the Url.",
+            "match": {
+              "location": "com.aiite.pageexecution.LoginPageStepDef.launch_the_browser_and_load_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 223580000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Provide valid \"geetha@yahoo.com\" and \"Welcome@5\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"geetha@yahoo.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Welcome@5\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.aiite.pageexecution.LoginPageStepDef.provide_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3106893600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the user is logged in.",
+            "match": {
+              "location": "com.aiite.pageexecution.LoginPageStepDef.validate_the_user_is_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-24T03:53:07.431Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.aiite.pageexecution.Hooks.beforeHook()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "This scenario is to test login with valid credential",
+        "description": "",
+        "id": "this-feature-is-to-test-login-page-scenarios;this-scenario-is-to-test-login-with-valid-credential;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.aiite.pageexecution.Hooks.afterHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1982832200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser and load the Url.",
+            "match": {
+              "location": "com.aiite.pageexecution.LoginPageStepDef.launch_the_browser_and_load_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 217269500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Provide valid \"sumithra@outlook.in\" and \"Test$234\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sumithra@outlook.in\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Test$234\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.aiite.pageexecution.LoginPageStepDef.provide_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3131175900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the user is logged in.",
+            "match": {
+              "location": "com.aiite.pageexecution.LoginPageStepDef.validate_the_user_is_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to test login page scenarios",
+    "description": "",
+    "id": "this-feature-is-to-test-login-page-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Featues/PageLogin.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
